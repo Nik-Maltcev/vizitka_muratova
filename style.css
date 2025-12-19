@@ -35,8 +35,8 @@ body {
 }
 
 .profile-image {
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     margin: 0 auto 15px;
     border-radius: 50%;
     overflow: hidden;
@@ -70,7 +70,8 @@ body {
 }
 
 .link-card {
-    display: block;
+    display: flex;
+    align-items: center;
     background-color: var(--card-bg);
     border: 1px solid #e0e0e0;
     border-radius: 10px;
@@ -79,7 +80,17 @@ body {
     color: var(--text-color);
     transition: transform 0.2s, box-shadow 0.2s;
     box-shadow: var(--shadow);
-    text-align: center;
+    text-align: left;
+}
+
+.link-logo {
+    width: 60px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.link-text {
+    flex: 1;
 }
 
 .link-card:hover {
