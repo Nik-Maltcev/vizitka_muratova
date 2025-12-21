@@ -228,3 +228,44 @@ body {
         padding: 15px;
     }
 }
+.social-icons a[aria-label="WhatsApp"] {
+    background-color: #25D366;
+    color: white;
+}
+
+.social-icons a[aria-label="Telegram"] {
+    background-color: #0088cc;
+    color: white;
+}
+
+.social-icons a[aria-label="VK"] {
+    background-color: #0077FF;
+    color: white;
+}
+
+.social-icons a[aria-label="Email"] {
+    background-color: #D44638;
+    color: white;
+}
+
+/* Remove hover override if we want them to stay colored,
+   or adjust hover to be a slightly different shade.
+   Currently the generic hover turns them to accent color.
+   Let's keep the specific colors even on hover, maybe darken them slightly.
+*/
+
+.social-icons a[aria-label="WhatsApp"]:hover {
+    background-color: #128C7E;
+}
+
+.social-icons a[aria-label="Telegram"]:hover {
+    background-color: #0077b5;
+}
+
+.social-icons a[aria-label="VK"]:hover {
+    background-color: #005ccf;
+}
+
+.social-icons a[aria-label="Email"]:hover {
+    background-color: #B23121;
+}
